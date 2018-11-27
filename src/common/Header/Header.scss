@@ -1,0 +1,43 @@
+@import '../../constants/index.scss';
+
+.header{
+
+	border-bottom: 0.5px solid black;
+	padding: 18px;
+	border-color: #D3D3D3;
+	
+}
+
+.headerColumn {
+	 
+	  
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+
+
+}
+
+.headerRow{
+	  display: flex;
+	  
+	  flex-direction: row;
+
+
+
+}
+
+.headerImage{
+	
+	margin-right: 22px;
+	height:42px ;
+	width:42px;
+	
+}
+
+.headerText{
+	font-weight: 500;
+	font-family: Roboto;
+	color: #333333;
+}
+

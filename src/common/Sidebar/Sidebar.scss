@@ -1,0 +1,16 @@
+@import '../../constants/index.scss';
+
+.sidebar{
+	padding-top:$padding-medium;
+	background-color: #f2f2f2;
+  	border: solid 0px $disabled-color;
+	max-width: 200px;
+	flex:1;
+	overflow-y:scroll;
+}
+
+.sidebarGroup{
+	
+
+	margin-bottom:$margin-big;
+}

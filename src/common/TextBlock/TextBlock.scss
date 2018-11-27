@@ -1,0 +1,21 @@
+@import '../../constants/index.scss';
+
+
+.textBlockTitle {
+  font-family: $font-type;
+  font-size: 32px;
+  color: $primary-text-color;
+  margin-bottom:$margin-medium;
+}
+
+
+.textBlockDescription {
+  font-family: $font-type;
+  font-size: $font-medium;
+  color: $primary-text-color;
+}
+
+.textBlock{
+	
+	margin-bottom:$margin-big;
+}

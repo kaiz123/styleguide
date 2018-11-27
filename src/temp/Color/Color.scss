@@ -1,0 +1,38 @@
+@import '../../constants/index.scss';
+
+
+.colorOval {
+  width: 72px;
+  height: 72px;
+  background-color: $actionable-color;
+  border-radius: 50%;
+  margin-right:$margin-medium;
+}
+
+
+.colorTextSubtitle {
+  font-family: $font-type;
+  font-size: $font-medium;
+  color: $primary-text-color;
+  margin-bottom:$margin-medium;
+}
+
+.colorTextMessage{
+
+  font-family: $font-type;
+  font-size: $font-medium;
+  color: $primary-text-color;
+}
+
+.color{
+	
+	margin-bottom:$margin-big;
+	display:flex;
+	flex-direction:row;
+}
+
+.colorText{
+	
+	display:flex;
+	flex-direction:column;
+}

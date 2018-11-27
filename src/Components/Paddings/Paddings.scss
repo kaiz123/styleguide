@@ -1,0 +1,36 @@
+@import '../../constants/index.scss';
+
+
+.outer{
+	display:flex;
+	flex-direction:column;
+	padding: $padding-page;
+}
+
+.paddingImage{
+	
+	width: 880px;
+	height: 400px;
+}
+
+.row{
+	
+	display:flex;
+	flex-direction:row;
+}
+
+.subtitle{
+	
+	font-family: $font-type;
+	margin-right: 128px;
+	margin-bottom: $margin-big;
+	font-weight: 500;
+	color: $secondary-text-color;
+}
+
+.message{
+	
+	font-family: $font-type;
+	color: $primary-text-color;
+	font-size: $font-medium;
+}

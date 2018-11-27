@@ -1,0 +1,15 @@
+@import '../../constants/index.scss';
+
+
+.row{
+	
+	display:flex;
+	flex-direction:row;
+}
+
+.message{
+	
+    font-family: $font-type;
+    font-size: $font-medium;
+    color: $primary-text-color;
+}

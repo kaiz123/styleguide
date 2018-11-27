@@ -1,0 +1,23 @@
+@import '../../constants/index.scss';
+
+.componentDescriptionSubtitle{
+	
+	font-family: $font-type;
+  	font-size: $font-medium;
+  	margin-bottom:$margin-small;
+  	color: $secondary-text-color;
+}
+
+
+
+.componentDescription{
+	
+	margin-bottom:$margin-big;
+	margin-right:$margin-big;
+}
+
+.componentDescriptionOuterButton{
+	
+	display:flex;
+	flex-direction:row;
+}

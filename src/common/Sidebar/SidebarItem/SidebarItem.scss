@@ -1,0 +1,26 @@
+@import '../../../constants/index.scss';
+
+
+
+.sidebarItem {
+  display:block;
+  text-decoration:none;
+  font-family: $font-type;
+  font-size: $font-medium;
+  color: $primary-text-color;
+  margin-left:$margin-small;
+  margin-bottom:$margin-small;
+  padding: $padding-small;
+}
+
+
+.active{
+  background-color: $foreground-color;
+  border: solid 0px white;
+  margin-left:0px;
+  padding-left:$padding-medium;
+  outline:none;
+  border-left: 5px solid $actionable-color;
+
+
+}

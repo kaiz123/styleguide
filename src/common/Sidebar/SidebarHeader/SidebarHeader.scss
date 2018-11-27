@@ -1,0 +1,13 @@
+@import '../../../constants/index.scss';
+
+.sidebarHeader {
+  
+  font-family: $font-type;
+  font-size: $font-medium;
+  font-weight: 500;
+  line-height: 1.75;
+  letter-spacing: normal;
+  color: #999999;
+  margin-left:$margin-medium;
+  margin-bottom:$margin-small;
+}

@@ -1,0 +1,39 @@
+@import '../../constants/index.scss';
+
+
+$knob-size: 24px;
+
+.toggle {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggleLabel {
+  font-family: $font-type;
+  font-size: $font-medium;
+  color: $primary-text-color;
+  margin-bottom:$margin-medium;
+}
+
+.toggleInput {
+  width: $knob-size * 2;
+  height: $knob-size*1.15;
+  border-radius: $knob-size;
+  border: 1px solid $border-color;
+  &.toggleInputActive {
+    background-color: $actionable-color;
+  }
+}
+
+.toggleInputKnob {
+  width: $knob-size;
+  height: $knob-size;
+  border-radius: $knob-size / 2;
+  background-color: white;
+  transform: translate3d(2%, 0, 0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid $border-color;
+  &.toggleInputKnobActive {
+    transform: translate3d(85%, 0, 0);
+  }
+}

@@ -1,0 +1,45 @@
+@import '../../constants/index.scss';
+
+.button{
+
+  font-family: $font-type;
+  font-size: $font-medium;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-right:$margin-medium;
+  border: solid 1px $disabled-color;
+  border-radius: 8px;
+  padding: 8px;
+  color: $primary-text-color;
+  cursor: pointer;
+}
+
+.button:hover{
+  box-shadow: 0 2px 4px 0 $secondary-text-color;
+  transform: translate(0px,-2px);
+}
+
+.button:focus {
+  outline-color: $actionable-color;
+}
+
+.buttonPrimary{
+  
+  background-color: $actionable-color;  
+
+}
+
+.buttonSecondary{
+
+  background-color: $foreground-color; 
+}
+
+.buttonDisabled{
+  
+  opacity: 0.65; 
+  cursor: not-allowed;
+}
+.buttonDisabled:hover{
+  box-shadow: 0 0px 0px 0 $secondary-text-color;
+  transform: translate(0px,0px);
+}

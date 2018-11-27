@@ -1,0 +1,22 @@
+@import '../../constants/index.scss';
+
+
+
+
+.introductionText{
+	flex:1;
+	flex-basis: 400px;
+	margin-right: $margin-big;
+	margin-bottom: $margin-big;
+}
+
+
+
+.introduction{
+	display:flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	padding: $padding-page;
+	margin-right: -32px;
+	margin-bottom: -32px;
+}

@@ -1,0 +1,28 @@
+'use strict';var _react = require('react');var _react2 = _interopRequireDefault(_react);
+var _enzyme = require('enzyme');
+var _enzymeAdapterReact = require('enzyme-adapter-react-16');var _enzymeAdapterReact2 = _interopRequireDefault(_enzymeAdapterReact);
+var _Button = require('../Button');var _Button2 = _interopRequireDefault(_Button);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+
+(0, _enzyme.configure)({ adapter: new _enzymeAdapterReact2.default() });
+
+describe('<Button />', function () {
+    var wrapper = void 0;
+
+    beforeEach(function () {
+        wrapper = (0, _enzyme.shallow)(_react2.default.createElement(_Button2.default, null));
+    });
+
+    it('should find button', function () {
+        expect(wrapper.find('button')).toHaveLength(1);
+    });
+
+    // it('should have classname buttonPrimary if secondary prop is not there', () => {
+    // 	// wrapper.setProps({ secondary: false });
+    //     expect(wrapper.find('button').hasClass('buttonPrimary')).toEqual(true);
+    // });
+
+    it('should have classname buttonSecondary if secondary prop is true', function () {
+        wrapper.setProps({ secondary: true });
+        expect(wrapper.find('button').hasClass('Button__button___2k26z Button__buttonSecondary___1CPvl')).toEqual(true);
+    });
+});

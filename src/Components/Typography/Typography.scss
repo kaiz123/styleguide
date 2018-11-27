@@ -1,0 +1,8 @@
+@import '../../constants/index.scss';
+
+
+.outer{
+	display:flex;
+	flex-direction:column;
+	padding: $padding-page;
+}
